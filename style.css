@@ -1,0 +1,133 @@
+/* Updated styles with curved borders, background changes, and modular buttons */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  #heading {
+    text-align: center; /* Center align text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a suitable font */
+    color: #333; /* Darker color for better readability */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Increase letter spacing */
+    margin-top: 20px; /* Add top margin for spacing */
+    border: 1px solid #ccc; /* Thin border */
+    border-radius: 10px; /* Curved borders */
+    padding: 10px 20px; /* Padding inside the heading */
+}
+
+
+  
+  /* Box styles */
+  #box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px; /* Curved borders */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    width: 120px; /* Adjusted width for better proportion */
+    height: 50px;
+    border: none;
+    border-radius: 10px; /* Curved borders */
+    background-color: #39a5d9;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #237aa3; /* Darker shade for hover effect */
+  }
+  
+  /* List styles */
+  #elements {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  li {
+    transition-duration: 0.5s;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  
+  /* Array visualization styles */
+  #arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #6c5ce7;
+    width: 80%;
+    max-width: 600px;
+    height: 50px;
+    font-size: 1.5rem;
+    margin: 20px auto;
+    border-radius: 20px; /* Curved borders */
+    background-color: #f0f0f0;
+  }
+  
+  /* Submit button styles */
+  #submitBtn {
+    font-size: 1.2rem;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 10px; /* Curved borders */
+    background-color: #ff6348;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 45.5%;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px 0; /* Vertical spacing */
+}
+
+#backBtn {
+    font-size: 1.2rem;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 10px; /* Curved borders */
+    background-color: #ff6348;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px auto 0; /* Center align horizontally and add top margin */
+    display: block; /* Ensures it's a block element for margin auto to work */
+}
+
+
+  
+  #submitBtn:hover {
+    background-color: #ff4836; /* Darker shade for hover effect */
+  }
+  
+  /* Additional section styles */
+  #upcoming {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px; /* Curved borders */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
